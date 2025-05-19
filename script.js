@@ -82,7 +82,7 @@ function evaluatePassword(password) {
     } else if (criteriaMet === 2) {
          level = "SLABA";
          cssClass = 'weak';
-    } else { // 0 sau 1
+    } else { 
          level = "FOARTE SLABA";
          cssClass = 'very-weak';
     }
